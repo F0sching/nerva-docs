@@ -58,3 +58,35 @@ To re-launch the miner:
 2. Wait for it to finish syncing
 
 3. Run the `start_mining` command
+
+## Solo mining via the GUI wallet
+
+There are two ways to start mining.
+
+No matter which one you choose, some stats about the miner be displayed in the "Deamon" tab.
+
+**Address** -- displays the address you mine too
+
+**Threads** -- displays the number of threads that are used for mininig
+
+**Hash Rate** -- displays the current hashrate of your miner
+
+**Time to Block** -- gives you an estimate how long it will take to find a block
+
+
+### Option 1
+
+Click on "File -- Properties"
+
+Click on the "Deamon" tab
+
+Here you can insert the wallet you want to mine too and how many cores the miner should use. The default setting is half of the available cores.
+
+You can also set the flag "Auto start mining when GUI starts"
+
+### Option 2
+
+In the "Balances" tab, right click the account you want to mine to and select "mine"
+
+
+
